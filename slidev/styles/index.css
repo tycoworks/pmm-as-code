@@ -1,0 +1,255 @@
+/* Color palette (Notion-inspired, light mode) */
+/* Source: https://docs.super.so/notion-colors */
+:root {
+  /* Spacing tokens */
+  --spacing-content: 1rem;  /* Gap between intro text and main content */
+
+  /* Notion color palette */
+  --gray-bg: #EBECED;
+  --gray-text: #9B9A97;
+  --brown-bg: #E9E5E3;
+  --brown-text: #64473A;
+  --orange-bg: #FAEBDD;
+  --orange-text: #D9730D;
+  --yellow-bg: #FBF3DB;
+  --yellow-text: #DFAB01;
+  --green-bg: #DDEDEA;
+  --green-text: #0F7B6C;
+  --blue-bg: #DDEBF1;
+  --blue-text: #0B6E99;
+  --purple-bg: #EAE4F2;
+  --purple-text: #6940A5;
+  --pink-bg: #F4DFEB;
+  --pink-text: #AD1A72;
+  --red-bg: #FBE4E4;
+  --red-text: #E03E3E;
+  --default-bg: #FFFFFF;
+  --default-text: #37352F;
+  /* Body/secondary text: default-text at 65% opacity */
+  --body-text: rgba(55, 53, 47, 0.65);
+}
+
+/* Admonition styles */
+.admonition {
+  padding: 0.75rem 1rem;
+  border-left: 4px solid;
+  border-radius: 4px;
+  margin: 0.5rem 0;
+}
+.admonition-title {
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+.admonition-content {
+  font-size: 0.9em;
+}
+.admonition-content p {
+  margin: 0;
+}
+
+/* Admonition color variants */
+.admonition-success { background-color: var(--green-bg); border-left-color: var(--green-text); color: var(--green-text); }
+.admonition-success .admonition-title { color: var(--green-text); }
+
+.admonition-warning { background-color: var(--yellow-bg); border-left-color: var(--yellow-text); color: var(--yellow-text); }
+.admonition-warning .admonition-title { color: var(--yellow-text); }
+
+.admonition-danger { background-color: var(--red-bg); border-left-color: var(--red-text); color: var(--red-text); }
+.admonition-danger .admonition-title { color: var(--red-text); }
+
+.admonition-info { background-color: var(--blue-bg); border-left-color: var(--blue-text); color: var(--blue-text); }
+.admonition-info .admonition-title { color: var(--blue-text); }
+
+.admonition-orange { background-color: var(--orange-bg); border-left-color: var(--orange-text); color: var(--orange-text); }
+.admonition-orange .admonition-title { color: var(--orange-text); }
+
+.admonition-purple { background-color: var(--purple-bg); border-left-color: var(--purple-text); color: var(--purple-text); }
+.admonition-purple .admonition-title { color: var(--purple-text); }
+
+.admonition-pink { background-color: var(--pink-bg); border-left-color: var(--pink-text); color: var(--pink-text); }
+.admonition-pink .admonition-title { color: var(--pink-text); }
+
+.admonition-gray { background-color: var(--gray-bg); border-left-color: var(--gray-text); color: var(--gray-text); }
+.admonition-gray .admonition-title { color: var(--gray-text); }
+
+.admonition-brown { background-color: var(--brown-bg); border-left-color: var(--brown-text); color: var(--brown-text); }
+.admonition-brown .admonition-title { color: var(--brown-text); }
+
+/* Grid cell styles */
+.grid-cell {
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 0.7rem;
+  min-height: 60px;
+}
+
+.grid-cell-low {
+  background-color: var(--red-bg);
+  border-color: var(--red-text);
+  color: var(--red-text);
+}
+
+.grid-cell-medium {
+  background-color: var(--yellow-bg);
+  border-color: var(--yellow-text);
+  color: var(--yellow-text);
+}
+
+.grid-cell-high {
+  background-color: var(--green-bg);
+  border-color: var(--green-text);
+  color: var(--green-text);
+}
+
+.grid-cell-highlight {
+  background-color: var(--purple-bg);
+  border-color: var(--purple-text);
+  color: var(--purple-text);
+}
+
+/* Highlight styles for positioning content */
+.hl-value { background-color: var(--green-bg); padding: 0 0.2em; border-radius: 0.2em; color: var(--green-text); }
+.hl-category { background-color: var(--purple-bg); padding: 0 0.2em; border-radius: 0.2em; color: var(--purple-text); }
+.hl-persona { background-color: var(--blue-bg); padding: 0 0.2em; border-radius: 0.2em; color: var(--blue-text); }
+.hl-activity { background-color: var(--pink-bg); padding: 0 0.2em; border-radius: 0.2em; color: var(--pink-text); }
+.hl-feature { background-color: var(--orange-bg); padding: 0 0.2em; border-radius: 0.2em; color: var(--orange-text); }
+.hl-problem { background-color: var(--red-bg); padding: 0 0.2em; border-radius: 0.2em; color: var(--red-text); }
+.hl-usecase { background-color: var(--yellow-bg); padding: 0 0.2em; border-radius: 0.2em; color: var(--yellow-text); }
+
+/* Ensure highlighted headings have proper line-height to avoid overlap */
+h1 .hl-value, h1 .hl-category, h1 .hl-persona, h1 .hl-activity, h1 .hl-feature, h1 .hl-problem, h1 .hl-usecase,
+h2 .hl-value, h2 .hl-category, h2 .hl-persona, h2 .hl-activity, h2 .hl-feature, h2 .hl-problem, h2 .hl-usecase,
+h3 .hl-value, h3 .hl-category, h3 .hl-persona, h3 .hl-activity, h3 .hl-feature, h3 .hl-problem, h3 .hl-usecase {
+  line-height: 1.8;
+}
+
+/* Legend for highlight colors */
+.legend {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-top: auto;
+  padding-top: 1rem;
+  width: 100%;
+}
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--body-text);
+}
+.legend-dot {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  opacity: 1 !important;
+  border: 2px solid;
+}
+.legend-dot-value { background-color: var(--green-bg); border-color: var(--green-text); }
+.legend-dot-category { background-color: var(--purple-bg); border-color: var(--purple-text); }
+.legend-dot-persona { background-color: var(--blue-bg); border-color: var(--blue-text); }
+.legend-dot-activity { background-color: var(--pink-bg); border-color: var(--pink-text); }
+.legend-dot-feature { background-color: var(--orange-bg); border-color: var(--orange-text); }
+.legend-dot-problem { background-color: var(--red-bg); border-color: var(--red-text); }
+.legend-dot-usecase { background-color: var(--yellow-bg); border-color: var(--yellow-text); }
+
+/* Custom styles */
+
+/* Typography: Notion-style colors */
+.slidev-layout h1,
+.slidev-layout h2,
+.slidev-layout h3,
+.slidev-layout h4 {
+  color: var(--default-text);
+}
+
+.slidev-layout {
+  color: var(--body-text);
+}
+
+/* Override Slidev's subtitle color (text after h1) */
+.slidev-layout p,
+.slidev-layout .my-auto p,
+.slidev-layout .slidev-page p {
+  color: var(--body-text) !important;
+  opacity: 1 !important;
+}
+
+/* Also target any spans that might be used for subtitle text */
+.slidev-layout .my-auto,
+.slidev-layout [class*="subtitle"] {
+  color: var(--body-text) !important;
+  opacity: 1 !important;
+}
+
+/* Force end layout to light theme */
+.slidev-layout.end {
+  background: white !important;
+  color: var(--default-text) !important;
+}
+.slidev-layout.end h1 {
+  color: var(--default-text) !important;
+}
+
+/* Smaller font on two-column content slides */
+.slidev-layout.two-cols-title {
+  font-size: 0.85em;
+}
+
+/* Three-cols-title: equal-width, equal-height columns */
+.slidev-layout.three-cols-title > div:last-child {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: stretch;
+  gap: 1rem;
+}
+.slidev-layout.three-cols-title .admonition {
+  margin: 0;
+  height: 100%;
+}
+
+/* Smaller tables in layouts */
+.slidev-layout table {
+  font-size: 0.75em !important;
+}
+
+.slidev-layout table th,
+.slidev-layout table td {
+  padding: 0.3em 0.5em !important;
+}
+
+/* Two-cols-header: spacing */
+.slidev-layout.two-cols-header .grid {
+  gap: 2rem;
+  margin-top: var(--spacing-content);
+}
+
+/* Images in two-cols-header: constrain size */
+.slidev-layout.two-cols-header img {
+  max-height: 45vh;
+  object-fit: contain;
+}
+
+/* Left-align content in two-cols-header columns */
+.slidev-layout.two-cols-header .col-left,
+.slidev-layout.two-cols-header .col-right {
+  align-items: flex-start;
+}
+
+/* Center content vertically in two-cols-title */
+.slidev-layout.two-cols-title .ns-c-cols {
+  align-items: center;
+}
+
+.slidev-layout.two-cols-title .col-left,
+.slidev-layout.two-cols-title .col-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
