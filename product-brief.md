@@ -65,13 +65,13 @@ Supporting arguments are the value statements and key features that back up the 
 
 ---
 
-#### 1. Subscriptions
+#### 1. Real-time Subscriptions
 
 > Unlike **custom infrastructure** [category] where you implement last-mile filtering and WebSocket delivery yourself, tycostream provides **Hasura-style filters** [feature] and **WebSocket subscriptions** [feature] out of the box.
 
 ---
 
-#### 2. Events
+#### 2. Event Triggers
 
 > Unlike **custom infrastructure** [category] where you wire up event handling yourself, tycostream lets you define **trigger conditions** [feature] that fire **webhooks** [feature] when data changes.
 

@@ -126,7 +126,7 @@ First proof point with features
 
 :: default ::
 
-## [Subscriptions]{.hl-value}
+## [Real-time Subscriptions]{.hl-value}
 
 Unlike [custom infrastructure]{.hl-alternative} where you implement last-mile filtering and WebSocket delivery yourself, tycostream provides [Hasura-style filters]{.hl-feature} and [WebSocket subscriptions]{.hl-feature} out of the box.
 
@@ -150,7 +150,7 @@ Second proof point with features
 
 :: default ::
 
-## [Events]{.hl-value}
+## [Event Triggers]{.hl-value}
 
 Unlike [custom infrastructure]{.hl-alternative} where you wire up event handling yourself, tycostream lets you define [trigger conditions]{.hl-feature} that fire [webhooks]{.hl-feature} when data changes.
 
