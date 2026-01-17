@@ -24,12 +24,12 @@ The positioning framework has 6 parts
 :: default ::
 
 <Grid :items="[
-  { title: 'Functional description', description: 'What is the product, who is it for, and what does it do' },
-  { title: 'Problem framing', description: 'The core challenge the product solves' },
-  { title: 'Value framing', description: 'The outcome and benefit the product delivers' },
-  { title: 'Supporting argument 1', description: 'First proof point with features' },
-  { title: 'Supporting argument 2', description: 'Second proof point with features' },
-  { title: 'Supporting argument 3', description: 'Third proof point with features' }
+  { title: '1. Functional description', description: 'What is the product, who is it for, and what does it do' },
+  { title: '2. Problem framing', description: 'The core challenge the product solves' },
+  { title: '3. Value framing', description: 'The outcome and benefit the product delivers' },
+  { title: '4. Supporting argument 1', description: 'First proof point with features' },
+  { title: '5. Supporting argument 2', description: 'Second proof point with features' },
+  { title: '6. Supporting argument 3', description: 'Third proof point with features' }
 ]" :columns="3" />
 
 ---
@@ -57,7 +57,7 @@ layout: title-footer
 
 :: title ::
 
-# Functional Description
+# 1. Functional Description
 
 What is the product, who is it for, and what does it do
 
@@ -79,7 +79,7 @@ layout: title-footer
 
 :: title ::
 
-# Problem Framing
+# 2. Problem Framing
 
 The core challenge the product solves
 
@@ -99,7 +99,7 @@ layout: title-footer
 
 :: title ::
 
-# Value Framing
+# 3. Value Framing
 
 The outcome and benefit the product delivers
 
@@ -120,7 +120,7 @@ layout: title-footer
 
 :: title ::
 
-# Supporting Argument 1
+# 4. Supporting Argument 1
 
 First proof point with features
 
@@ -144,7 +144,7 @@ layout: title-footer
 
 :: title ::
 
-# Supporting Argument 2
+# 5. Supporting Argument 2
 
 Second proof point with features
 
@@ -168,7 +168,7 @@ layout: title-footer
 
 :: title ::
 
-# Supporting Argument 3
+# 6. Supporting Argument 3
 
 Third proof point with features
 
