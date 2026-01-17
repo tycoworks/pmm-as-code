@@ -1,6 +1,6 @@
 ---
 theme: default
-title: tycostream Positioning
+title: tycostream positioning
 colorSchema: light
 transition: none
 mdc: true
@@ -9,7 +9,7 @@ layout: cover
 
 # tycostream positioning
 
-A guide to how we talk about tycostream
+How to talk about tycostream
 
 ---
 layout: title-footer

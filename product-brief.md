@@ -4,9 +4,11 @@ This product brief is the foundation for tycostream positioning and messaging.
 
 ## Positioning
 
-### Introduction
+How to talk about tycostream
 
-The positioning framework has 6 parts. Each part uses anchors to ground the message in something the audience already knows.
+### Framework
+
+The positioning framework has 6 parts:
 
 1. **Functional description** — What is the product, who is it for, and what does it do
 2. **Problem framing** — The core challenge the product solves
@@ -15,7 +17,9 @@ The positioning framework has 6 parts. Each part uses anchors to ground the mess
 5. **Supporting argument 2** — Second proof point with features
 6. **Supporting argument 3** — Third proof point with features
 
-Brackets show what kind of anchor each term is:
+### Anchors
+
+Each part uses anchors to ground the message in something the audience already knows:
 
 - **[category]** anchors what kind of product it is
 - **[persona]** anchors who uses it
