@@ -39,7 +39,7 @@ defineProps({
   color: var(--gray-text);
   font-size: 0.9rem;
   padding-bottom: 0.3rem;
-  border-bottom: 1px solid currentColor;
+  border-bottom: 0.5px solid currentColor;
   margin-bottom: 0.5rem;
 }
 
