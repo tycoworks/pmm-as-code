@@ -38,6 +38,7 @@ The positioning framework has 6 parts. Each part uses anchors to ground the mess
   { label: 'Category', type: 'hl-category' },
   { label: 'Persona', type: 'hl-persona' },
   { label: 'Use Case', type: 'hl-usecase' },
+  { label: 'Alternative', type: 'hl-alternative' },
   { label: 'Problem', type: 'hl-problem' },
   { label: 'Feature', type: 'hl-feature' },
   { label: 'Value', type: 'hl-value' }
@@ -51,7 +52,7 @@ layout: title-footer
 
 # Functional Description
 
-What is the product, who is it for, and what does it do.
+What is the product, who is it for, and what does it do
 
 :: default ::
 
@@ -73,7 +74,7 @@ layout: title-footer
 
 # Problem Framing
 
-The core challenge the product solves.
+The core challenge the product solves
 
 :: default ::
 
@@ -93,7 +94,7 @@ layout: title-footer
 
 # Value Framing
 
-The outcome and benefit the product delivers.
+The outcome and benefit the product delivers
 
 :: default ::
 
@@ -114,7 +115,7 @@ layout: title-footer
 
 # Supporting Argument 1
 
-First proof point with features.
+First proof point with features
 
 :: default ::
 
@@ -138,7 +139,7 @@ layout: title-footer
 
 # Supporting Argument 2
 
-Second proof point with features.
+Second proof point with features
 
 :: default ::
 
@@ -162,7 +163,7 @@ layout: title-footer
 
 # Supporting Argument 3
 
-Third proof point with features.
+Third proof point with features
 
 :: default ::
 

@@ -120,11 +120,12 @@
 .hl-feature { background-color: var(--orange-bg); padding: 0 0.2em; border-radius: 0.2em; color: var(--orange-text); }
 .hl-problem { background-color: var(--red-bg); padding: 0 0.2em; border-radius: 0.2em; color: var(--red-text); }
 .hl-usecase { background-color: var(--yellow-bg); padding: 0 0.2em; border-radius: 0.2em; color: var(--yellow-text); }
+.hl-alternative { background-color: var(--brown-bg); padding: 0 0.2em; border-radius: 0.2em; color: var(--brown-text); }
 
 /* Ensure highlighted headings have proper line-height to avoid overlap */
-h1 .hl-value, h1 .hl-category, h1 .hl-persona, h1 .hl-activity, h1 .hl-feature, h1 .hl-problem, h1 .hl-usecase,
-h2 .hl-value, h2 .hl-category, h2 .hl-persona, h2 .hl-activity, h2 .hl-feature, h2 .hl-problem, h2 .hl-usecase,
-h3 .hl-value, h3 .hl-category, h3 .hl-persona, h3 .hl-activity, h3 .hl-feature, h3 .hl-problem, h3 .hl-usecase {
+h1 .hl-value, h1 .hl-category, h1 .hl-persona, h1 .hl-activity, h1 .hl-feature, h1 .hl-problem, h1 .hl-usecase, h1 .hl-alternative,
+h2 .hl-value, h2 .hl-category, h2 .hl-persona, h2 .hl-activity, h2 .hl-feature, h2 .hl-problem, h2 .hl-usecase, h2 .hl-alternative,
+h3 .hl-value, h3 .hl-category, h3 .hl-persona, h3 .hl-activity, h3 .hl-feature, h3 .hl-problem, h3 .hl-usecase, h3 .hl-alternative {
   line-height: 1.8;
 }
 
@@ -158,6 +159,7 @@ h3 .hl-value, h3 .hl-category, h3 .hl-persona, h3 .hl-activity, h3 .hl-feature, 
 .legend-dot-feature { background-color: var(--orange-bg); border-color: var(--orange-text); }
 .legend-dot-problem { background-color: var(--red-bg); border-color: var(--red-text); }
 .legend-dot-usecase { background-color: var(--yellow-bg); border-color: var(--yellow-text); }
+.legend-dot-alternative { background-color: var(--brown-bg); border-color: var(--brown-text); }
 
 /* Custom styles */
 
