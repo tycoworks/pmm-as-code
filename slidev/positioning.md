@@ -17,9 +17,9 @@ layout: title-footer
 
 :: title ::
 
-# Positioning Framework
+# Framework
 
-The positioning framework has 6 parts. Each part uses anchors to ground the message in something the audience already knows.
+The positioning framework has 6 parts
 
 :: default ::
 
@@ -32,17 +32,24 @@ The positioning framework has 6 parts. Each part uses anchors to ground the mess
   { title: 'Supporting argument 3', description: 'Third proof point with features' }
 ]" :columns="3" />
 
-:: footer ::
+---
+layout: title-footer
+---
 
-<Legend :items="[
-  { label: 'Category', type: 'hl-category' },
-  { label: 'Persona', type: 'hl-persona' },
-  { label: 'Use Case', type: 'hl-usecase' },
-  { label: 'Alternative', type: 'hl-alternative' },
-  { label: 'Problem', type: 'hl-problem' },
-  { label: 'Feature', type: 'hl-feature' },
-  { label: 'Value', type: 'hl-value' }
-]" />
+:: title ::
+
+# Anchors
+
+Each part uses anchors to ground the message in something the audience already knows
+
+:: default ::
+
+- [Category]{.hl-category} anchors what kind of product it is
+- [Persona]{.hl-persona} anchors who uses it
+- [Use Case]{.hl-usecase} anchors the business scenario or job to be done
+- [Alternative]{.hl-alternative} anchors what's broken about the status quo
+- [Feature]{.hl-feature} anchors what capabilities enable that
+- [Value]{.hl-value} anchors the business outcome
 
 ---
 layout: title-footer
