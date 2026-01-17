@@ -40,7 +40,7 @@ layout: title-footer
 
 # Anchors
 
-Each part uses anchors to ground the message in something the audience already knows
+Each part uses anchors to make the message concrete and specific
 
 :: default ::
 

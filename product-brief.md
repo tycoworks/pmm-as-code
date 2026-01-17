@@ -19,7 +19,7 @@ The positioning framework has 6 parts:
 
 ### Anchors
 
-Each part uses anchors to ground the message in something the audience already knows:
+Each part uses anchors to make the message concrete and specific:
 
 - **[category]** anchors what kind of product it is
 - **[persona]** anchors who uses it
